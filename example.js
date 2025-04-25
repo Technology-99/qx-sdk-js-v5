@@ -7,3 +7,5 @@ const qxSdk = new QxSdk({
     accessKeySecret: process.env.ACCESS_KEY_SECRET,
     endpoint: process.envENDPOINT,
 });
+
+console.log("qxSdk", qxSdk);

@@ -49,7 +49,6 @@ class QxClient {
 
     get(url, data) {
         const realUrl = `${this.#config.protocol}://${this.#config.endpoint}/qx/v5/apis${url}`
-        // console.log("qx debug: url:", realUrl);
         return this.client({
             method: "GET",
             url: realUrl,
