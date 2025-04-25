@@ -1,11 +1,12 @@
 {
   "name": "qx-sdk-js-v5",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "",
   "type": "module",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public --registry=https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Technology-99/qx-sdk-js-v5/issues"
   },
-  "homepage": "https://github.com/Technology-99/qx-sdk-js-v5#readme"
+  "homepage": "https://github.com/Technology-99/qx-sdk-js-v5#readme",
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
 }
